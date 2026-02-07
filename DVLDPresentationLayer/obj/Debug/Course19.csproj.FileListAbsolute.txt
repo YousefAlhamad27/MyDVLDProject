@@ -1,0 +1,15 @@
+C:\Users\Home-Pc\source\repos\Course19\Course19\obj\Debug\Course19.csproj.AssemblyReference.cache
+C:\Users\Home-Pc\source\repos\Course19\Course19\obj\Debug\Course19.Form1.resources
+C:\Users\Home-Pc\source\repos\Course19\Course19\obj\Debug\Course19.Properties.Resources.resources
+C:\Users\Home-Pc\source\repos\Course19\Course19\obj\Debug\Course19.csproj.GenerateResource.cache
+C:\Users\Home-Pc\source\repos\Course19\Course19\obj\Debug\Course19.csproj.CoreCompileInputs.cache
+C:\Users\Home-Pc\source\repos\Course19\Course19\bin\Debug\Course19.exe.config
+C:\Users\Home-Pc\source\repos\Course19\Course19\bin\Debug\Course19.exe
+C:\Users\Home-Pc\source\repos\Course19\Course19\bin\Debug\Course19.pdb
+C:\Users\Home-Pc\source\repos\Course19\Course19\obj\Debug\Course19.exe
+C:\Users\Home-Pc\source\repos\Course19\Course19\obj\Debug\Course19.pdb
+C:\Users\Home-Pc\source\repos\Course19\Course19\obj\Debug\Course19.exe.config
+C:\Users\Home-Pc\source\repos\Course19\Course19\bin\Debug\DVDLBussinessLayer.dll
+C:\Users\Home-Pc\source\repos\Course19\Course19\bin\Debug\DVDLBussinessLayer.pdb
+C:\Users\Home-Pc\source\repos\Course19\Course19\bin\Debug\DVDLBussinessLayer.dll.config
+C:\Users\Home-Pc\source\repos\Course19\Course19\obj\Debug\Course19.csproj.Up2Date
