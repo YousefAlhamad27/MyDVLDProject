@@ -1,7 +1,0 @@
-C:\Users\Home-Pc\source\repos\Course19\DVDLDataAccessLayer\bin\Debug\DVDLDataAccessLayer.dll.config
-C:\Users\Home-Pc\source\repos\Course19\DVDLDataAccessLayer\bin\Debug\DVDLDataAccessLayer.dll
-C:\Users\Home-Pc\source\repos\Course19\DVDLDataAccessLayer\bin\Debug\DVDLDataAccessLayer.pdb
-C:\Users\Home-Pc\source\repos\Course19\DVDLDataAccessLayer\obj\Debug\DVDLDataAccessLayer.csproj.AssemblyReference.cache
-C:\Users\Home-Pc\source\repos\Course19\DVDLDataAccessLayer\obj\Debug\DVDLDataAccessLayer.csproj.CoreCompileInputs.cache
-C:\Users\Home-Pc\source\repos\Course19\DVDLDataAccessLayer\obj\Debug\DVDLDataAccessLayer.dll
-C:\Users\Home-Pc\source\repos\Course19\DVDLDataAccessLayer\obj\Debug\DVDLDataAccessLayer.pdb
