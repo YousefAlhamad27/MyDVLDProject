@@ -2,7 +2,6 @@
 
 A comprehensive Windows Forms desktop application designed to manage driver records, license issuance, and user administration, backed by a robust SQL Server database.
 
-<<<<<<< HEAD
 ![Login Screen](Docs/login-page.png)
 ![Main Dashboard](Docs/main-menu.png)
 ![Complex Data Entry](Docs/person-info-form.png)
@@ -52,4 +51,3 @@ The application is structured using a strict 3-tier architecture to decouple the
 2. Restore the SQL Server database using the provided scripts.
 3. Update the database connection string in the configuration file.
 4. Open the solution (DVLD.sln) in Visual Studio and run the application.
->>>>>>> 5f8b5f41e6836b872cf11741719f8ff3876e4477
