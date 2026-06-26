@@ -65,6 +65,7 @@
             this.ContextUserInfo = new System.Windows.Forms.ToolStripMenuItem();
             this.ContextChangePassword = new System.Windows.Forms.ToolStripMenuItem();
             this.contextSignOut = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.ctMenuApplications.SuspendLayout();
@@ -127,7 +128,7 @@
             this.tsManageApplicationTypes,
             this.tsManageTestTypes});
             this.ctMenuApplications.Name = "ctMenuApplications";
-            this.ctMenuApplications.Size = new System.Drawing.Size(259, 174);
+            this.ctMenuApplications.Size = new System.Drawing.Size(259, 146);
             // 
             // tsLicenseServices
             // 
@@ -402,12 +403,25 @@
             this.contextSignOut.Text = "Sign Out";
             this.contextSignOut.Click += new System.EventHandler(this.ContextSignOut_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Silver;
+            this.label1.Location = new System.Drawing.Point(39, 464);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1350, 91);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Driver License Management System";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Course19.Properties.Resources.Logo_Final1;
+            this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1489, 964);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -417,6 +431,7 @@
             this.ctMenuApplications.ResumeLayout(false);
             this.ctMenuAccountSet.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -456,6 +471,7 @@
         private System.Windows.Forms.ToolStripMenuItem tsManageDetainedLicenses;
         private System.Windows.Forms.ToolStripMenuItem tsDetainLicenseDropDown;
         private System.Windows.Forms.ToolStripMenuItem tsReleaseDetainedLicenseDropDown;
+        private System.Windows.Forms.Label label1;
     }
 }
 

@@ -41,7 +41,7 @@ namespace Course19
                 main.ShowDialog();
                 _mode = main._mode;
                 
-            }
+            }   
             else if (_mode==ESignMode.Signout)
             {
                 new Main().ShowDialog();

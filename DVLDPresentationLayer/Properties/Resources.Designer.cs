@@ -1906,6 +1906,16 @@ namespace Course19.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sub_main {
+            get {
+                object obj = ResourceManager.GetObject("sub_main", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap telephone_call_symbol_iphone_png_favpng_1hrqZMxPXfd2gLPqhzGU1qmNQ {
             get {
                 object obj = ResourceManager.GetObject("telephone-call-symbol-iphone-png-favpng-1hrqZMxPXfd2gLPqhzGU1qmNQ", resourceCulture);

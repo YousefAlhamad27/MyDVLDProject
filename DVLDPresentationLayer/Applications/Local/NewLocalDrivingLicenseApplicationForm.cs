@@ -33,7 +33,7 @@ namespace Course19
             setClassesComboBoxValues();
             comboBox1.SelectedIndex = 0;
             _nationalNumber = nationalNumber;
-
+            lbUsername.Text = clsSession.currentUser._username;
             if (mode == enMode.Update)
             {
                 localApplicationID = Convert.ToInt32(applicationID1);
@@ -347,6 +347,11 @@ namespace Course19
                 }
 
             }
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

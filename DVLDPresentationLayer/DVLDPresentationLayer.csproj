@@ -1029,6 +1029,8 @@
   <ItemGroup>
     <None Include="Resources\License View 324.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\sub_main.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

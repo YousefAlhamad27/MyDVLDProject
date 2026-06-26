@@ -115,6 +115,7 @@ namespace Course19
             clsSession.currentUser=clsUser.getUserByUserName(textBox1.Text);
 
             if(clsSession.currentUser!=null)
+
            if(textBox2.Text== clsSession.currentUser._password) { 
                 _isAuthorized = true;
                 _tologin = true;

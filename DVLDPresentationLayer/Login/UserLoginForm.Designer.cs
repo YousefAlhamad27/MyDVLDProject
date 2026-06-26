@@ -29,18 +29,18 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -65,6 +65,49 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(635, 762);
             this.panel1.TabIndex = 1;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(460, 340);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(46, 18);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Show";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.label4.MouseLeave += new System.EventHandler(this.label4_MouseLeave);
+            this.label4.MouseHover += new System.EventHandler(this.label4_MouseHover);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Image = global::Course19.Properties.Resources.closeBlack32;
+            this.button2.Location = new System.Drawing.Point(566, 5);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(63, 57);
+            this.button2.TabIndex = 9;
+            this.button2.TabStop = false;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Image = global::Course19.Properties.Resources.sign_in_32;
+            this.button1.Location = new System.Drawing.Point(412, 440);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(129, 47);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Login";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // checkBox1
             // 
@@ -93,6 +136,26 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(271, 30);
             this.textBox1.TabIndex = 1;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Course19.Properties.Resources.Password_32;
+            this.pictureBox3.Location = new System.Drawing.Point(204, 332);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(28, 30);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 4;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Course19.Properties.Resources.Person_321;
+            this.pictureBox2.Location = new System.Drawing.Point(204, 282);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(28, 30);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
             // 
             // label3
             // 
@@ -124,79 +187,16 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Log Into Your Account";
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Image = global::Course19.Properties.Resources.closeBlack32;
-            this.button2.Location = new System.Drawing.Point(566, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(63, 57);
-            this.button2.TabIndex = 9;
-            this.button2.TabStop = false;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = global::Course19.Properties.Resources.sign_in_32;
-            this.button1.Location = new System.Drawing.Point(412, 440);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 47);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Login";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Course19.Properties.Resources.Password_32;
-            this.pictureBox3.Location = new System.Drawing.Point(204, 332);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(28, 30);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 4;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Course19.Properties.Resources.Person_321;
-            this.pictureBox2.Location = new System.Drawing.Point(204, 282);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(28, 30);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.pictureBox1.Image = global::Course19.Properties.Resources.IconLogo;
+            this.pictureBox1.Image = global::Course19.Properties.Resources.sub_main;
             this.pictureBox1.Location = new System.Drawing.Point(5, 7);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(642, 762);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(460, 340);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 18);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Show";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            this.label4.MouseLeave += new System.EventHandler(this.label4_MouseLeave);
-            this.label4.MouseHover += new System.EventHandler(this.label4_MouseHover);
             // 
             // UserLoginForm
             // 
