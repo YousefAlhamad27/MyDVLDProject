@@ -41,6 +41,11 @@ The application is structured using a strict 3-tier architecture to decouple the
 * Business Layer (DVLDBusinessLayer): Handles validation, business rules, and logic for license processing.
 * Data Access Layer (DVLDDataAccessLayer): Executes optimized CRUD operations and communicates directly with the SQL Server database.
 
+## Database Architecture
+
+![Database Diagram](Docs/database-Diagram.PNG)
+
+
 ## Key Features
 * Driver Record Management: Add, update, and manage detailed applicant profiles.
 * License Processing: Logic for issuing, renewing, and tracking driving licenses.
